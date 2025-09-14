@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: center;
+}
+
+.project {
+  width: 40%;
+  padding: 2%;
+  /* border: 5px solid white;
+    border-radius: 5px; */
+}
+
+.project h2 {
+  color: #296b79;
+}
+
+.project p {
+  color: white;
+}

@@ -1,0 +1,94 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1d1d1d;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  /* background-color: black; */
+}
+
+nav h3 span {
+  color: rgb(242, 5, 5);
+}
+
+nav h3 {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+nav li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.btn {
+  padding: 18px 35px;
+  color: rgb(242, 5, 5);
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: rgb(6, 6, 6);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid black;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px 50px;
+}
+
+.footer-title {
+  color: aliceblue;
+  text-align: center;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* responsive */
+  margin-bottom: 30px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #222;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-text p {
+  font-size: 16px;
+  color: #ccc;
+  max-width: 600px;
+}

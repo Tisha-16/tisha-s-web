@@ -1,0 +1,126 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1d1d1d;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+
+.banner-content {
+  max-width: 580px;
+}
+
+.intro {
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.introduction {
+  font-weight: bold;
+  font-size: 70px;
+  color: red;
+}
+
+.banner-description {
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.image {
+  width: 400px;
+  height: 450px;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.section-description {
+  color: aliceblue;
+}
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px;
+  border: 2px solid rgb(32, 32, 32);
+  background-color: rgb(32, 32, 32);
+}
+
+.skill-logo {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.skill-title {
+  color: aliceblue;
+}
+
+.skill-description {
+  color: aliceblue;
+}
+
+.resume hr {
+  margin: 30px 5px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.resume-title {
+  color: rgb(151, 4, 4);
+  text-align: center;
+  font-size: 30px;
+}
+
+.experience-title {
+  color: aliceblue;
+}
+
+.experience-sub-title {
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.experience-description {
+  color: aliceblue;
+}
+
+.resume-column-title {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.resume-download-cv {
+  margin-top: 50px;
+  text-align: center;
+}
