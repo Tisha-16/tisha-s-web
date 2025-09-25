@@ -124,3 +124,14 @@ main section {
   margin-top: 50px;
   text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+  .skills-container,
+  .resume-container,
+  .banner {
+    flex-direction: column;
+  }
+  .banner {
+    margin: 20px;
+  }
+}

@@ -92,3 +92,18 @@ footer {
   color: #ccc;
   max-width: 600px;
 }
+
+@media screen and (max-width: 576px) {
+  footer,
+  nav,
+  nav > ul {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-btn {
+    width: 100%;
+  }
+  /* .footer-bottom {
+    flex-direction: column;
+  } */
+}
